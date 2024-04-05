@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { CasasInfo } from "../data";
 import { BiLogoWhatsapp } from "react-icons/bi";
-
 export const Detail = () => {
     let { id } = useParams();
     const [casa, setCasas] = useState(null);
@@ -35,14 +34,14 @@ export const Detail = () => {
             </div>
             <div className="flex flex-col gap-2 mt-5 md:mt-0">
             <h1 className="text-4xl text-orange-700">Preço: R$ {casa.price}</h1>
-                <p className="text-ml text-orange-700">Localização: <span className="text-zinc-950">{casa.localization}</span></p>
-                <p className="text-ml text-orange-700">Rua: <span className="text-zinc-950">{casa.rua}</span></p>
-                <p className="text-ml text-orange-700">CEP: <span className="text-zinc-950">{casa.cep}</span></p>
-                <p className="text-ml text-orange-700">Nº Quartos: <span className="text-zinc-950">{casa.nQuartos}</span></p>
-                <p className="text-ml text-orange-700">Teto Coberto: <span className="text-zinc-950">{casa.coberta}</span></p>
-                <p className="text-ml text-orange-700"> Negociação: <span className="text-zinc-950">{casa.negociation}</span></p>
+                <p className="text-ml text-orange-700">Localização: <span className="text-zinc-600">{casa.localization}</span></p>
+                <p className="text-ml text-orange-700">Rua: <span className="text-zinc-600">{casa.rua}</span></p>
+                <p className="text-ml text-orange-700">CEP: <span className="text-zinc-600">{casa.cep}</span></p>
+                <p className="text-ml text-orange-700">Nº Quartos: <span className="text-zinc-600">{casa.nQuartos}</span></p>
+                <p className="text-ml text-orange-700">Teto Coberto: <span className="text-zinc-600">{casa.coberta}</span></p>
+                <p className="text-ml text-orange-700"> Negociação: <span className="text-zinc-600">{casa.negociation}</span></p>
                 <h2 className="text-ml text-orange-700">Descrição:</h2>
-                <p className="text-ml">{casa.description}</p>
+                <p className="text-ml text-zinc-600">{casa.description}</p>
                 <div className="mt-2 justify-center p-2 hover:cursor-pointer flex gap-5 rounded-md w-full align-middle bg-green-700 text-white">
                     <BiLogoWhatsapp size={27}/>
                     <p>+55 8675534322</p>

@@ -15,10 +15,7 @@ export const Card = ({ casa }) => {
                     <p className="text-md text-orange-700 bg-white p-2 rounded-md border-none">{localization}</p>
                 </div>
                 <div className="py-2">
-                    <p className="font-semibold text-xl">Rua: <span className="font-semibold">{rua}</span></p>
-                </div>
-                <div>
-                    <p>Descrição: <span className="text-white/55">{description}</span></p>
+                    <p className="font-semibold text-ml">Rua: <span className="font-normal">{rua}</span></p>
                 </div>
                 <div className="flex flex-col justify-center items-end mb-0">
                     <button className="mt-4 p-2 rounded-md w-full bg-zinc-900 text-white">

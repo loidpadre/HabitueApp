@@ -13,11 +13,13 @@ export const Footer = () => {
                     <li className="rounded-lg transition-all cursor-pointer"><Link to="/">Casas</Link></li>
                     <li className="text-white/55 hover:text-white rounded-lg transition-all cursor-pointer"><Link to="about">Quem somos</Link></li>
                     <li className="text-white/55 hover:text-white rounded-lg transition-all cursor-pointer"><Link to="contact">Contatos</Link></li>
+                    <li className="text-white/55 hover:text-white rounded-lg transition-all cursor-pointer"><Link to="faq">FAQ</Link></li>
                 </ul>
             </div>
             <div>
                 <p>&copy;Habitue. Todos os direitos reservados.</p>
-                <p className="text-orange-700">Created by Scorpion Company</p>
+                <p>Created by Scorpion Company</p>
+                <Link to="politicas"><p className="text-orange-700">Politicas de uso da plataforma</p></Link>
             </div>
         </div>
     );

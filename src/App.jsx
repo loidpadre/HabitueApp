@@ -6,6 +6,8 @@ import { Contact } from "./pages/contact"
 import { Footer } from "./components/footer"
 import { Doaction } from "./pages/doaction"
 import { Detail } from "./pages/detail"
+import Politicas from "./pages/politicas"
+import Faq from "./pages/faq"
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path="/contact" element={<Contact/>}></Route>
         <Route path="/doation" element={<Doaction/>}></Route>
         <Route path="/detail/:id" element={<Detail/>}></Route>
+        <Route path="/politicas" element={<Politicas/>}></Route>
+        <Route path="/faq" element={<Faq/>}></Route>
       </Routes>
       <Footer/>
     </Router>
