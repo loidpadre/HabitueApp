@@ -35,8 +35,8 @@ export const Detail = () => {
             </div>
             <div className="flex flex-col gap-2 mt-5 md:mt-0">
             <h1 className="text-4xl text-orange-700">Preço: R$ {casa.price}</h1>
-                <p className="text-ml text-orange-700">CEP: <span className="text-zinc-950">{casa.cep}</span></p>
                 <p className="text-ml text-orange-700">Localização: <span className="text-zinc-950">{casa.localization}</span></p>
+                <p className="text-ml text-orange-700">CEP: <span className="text-zinc-950">{casa.cep}</span></p>
                 <p className="text-ml text-orange-700">Nº Quartos: <span className="text-zinc-950">{casa.nQuartos}</span></p>
                 <p className="text-ml text-orange-700">Teto Coberto: <span className="text-zinc-950">{casa.coberta}</span></p>
                 <p className="text-ml text-orange-700"> Negociação: <span className="text-zinc-950">{casa.negociation}</span></p>
