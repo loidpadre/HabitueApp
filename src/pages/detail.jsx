@@ -21,15 +21,15 @@ export const Detail = () => {
     }
 
     return casa && casa.image ? (
-        <div className="flex flex-col md:flex-row items-center mx-4 md:mx-52 my-10 justify-evenly">
+        <div className="flex flex-col md:flex-row gap-12 items-center mx-4 md:mx-52 my-10 justify-evenly">
             <div className="flex flex-wrap gap-5 justify-center md:justify-start">
                 <div className="flex flex-col gap-5 items-center md:items-start">
                     <img src={imagePrincipal} className="rounded-md md:w-96 md:h-96 w-60 h-60 object-cover" alt="Imagem Principal da Casa" />
                     <div className="flex gap-2 flex-wrap justify-center">
-                        <img src={casa.image.imagePrincipal} onClick={() => changeImage(casa.image.imagePrincipal)} className="rounded-md w-24 h-24 object-cover cursor-pointer" alt="Imagem da Casa" />
-                        <img src={casa.image.image2} onClick={() => changeImage(casa.image.image2)} className="rounded-md w-24 h-24 object-cover cursor-pointer" alt="Imagem da Casa" />
-                        <img src={casa.image.image3} onClick={() => changeImage(casa.image.image3)} className="rounded-md w-24 h-24 object-cover cursor-pointer" alt="Imagem da Casa" />
-                        <img src={casa.image.image4} onClick={() => changeImage(casa.image.image4)} className="rounded-md w-24 h-24 object-cover cursor-pointer" alt="Imagem da Casa" />
+                        <img src={casa.image.imagePrincipal} onClick={() => changeImage(casa.image.imagePrincipal)} className="rounded-md w-24 h-2w-24 object-cover cursor-pointer" alt="Imagem da Casa" />
+                        <img src={casa.image.image2} onClick={() => changeImage(casa.image.image2)} className="rounded-md w-24 h-2w-24 object-cover cursor-pointer" alt="Imagem da Casa" />
+                        <img src={casa.image.image3} onClick={() => changeImage(casa.image.image3)} className="rounded-md w-24 h-2w-24 object-cover cursor-pointer" alt="Imagem da Casa" />
+                        <img src={casa.image.image4} onClick={() => changeImage(casa.image.image4)} className="rounded-md w-24 h-2w-24 object-cover cursor-pointer" alt="Imagem da Casa" />
                     </div>
                 </div>
             </div>
