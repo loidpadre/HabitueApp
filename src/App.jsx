@@ -8,6 +8,9 @@ import { Doaction } from "./pages/doaction"
 import { Detail } from "./pages/detail"
 import Politicas from "./pages/politicas"
 import Faq from "./pages/faq"
+import DashLogin from "./pages/DashLogin"
+import Dash from "./pages/Dash"
+import AddHome from "./pages/AddHome"
 
 function App() {
   return (
@@ -21,6 +24,9 @@ function App() {
         <Route path="/detail/:id" element={<Detail/>}></Route>
         <Route path="/politicas" element={<Politicas/>}></Route>
         <Route path="/faq" element={<Faq/>}></Route>
+        <Route path="/dashlogin" element={<DashLogin/>}></Route>
+        <Route path="/dash" element={<Dash/>}></Route>
+        <Route path="/dash/add" element={<AddHome/>}></Route>
       </Routes>
       <Footer/>
     </Router>

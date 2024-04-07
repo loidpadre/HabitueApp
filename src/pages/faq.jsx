@@ -35,18 +35,18 @@ function Faq() {
 
   return (
     // Ajustando margens para serem responsivas
-    <div className="mx-4 sm:mx-10 md:mx-20 lg:mx-32 xl:mx-64 my-10">
+    <div className="mx-6 sm:mx-10 md:mx-20 lg:mx-32 xl:mx-64 my-10">
       <h1 className="text-3xl sm:text-4xl md:text-5xl mb-6 my-12 text-orange-700 text-center md:text-left">Perguntas Frequentes (FAQ)</h1>
       {faqs.map((faq, index) => (
         <div key={index} className="mb-4">
           <button
-            className="question text-left p-4 rounded-md w-full text-lg font-semibold bg-zinc-900 text-white hover:bg-orange-700"
+            className="question text-left p-4 rounded-md w-full text-lg font-semibold transition duration-300 bg-white hover:text-white hover:bg-orange-700"
             onClick={() => toggleAnswer(index)}
           >
             {faq.question}
           </button>
           {visibleAnswer[index] && (
-            <p className="answer mt-2 p-4 bg-gray-50">{faq.answer}</p>
+            <p className="answer mt-2 p-4">{faq.answer}</p>
           )}
         </div>
       ))}

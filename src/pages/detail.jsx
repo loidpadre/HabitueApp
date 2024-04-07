@@ -1,25 +1,28 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { CasasInfo } from "../data";
 import { BiLogoWhatsapp } from "react-icons/bi";
+import axios from "axios";
+
 export const Detail = () => {
     let { id } = useParams();
-    const [casa, setCasas] = useState(null);
+    const [casa, setCasa] = useState(null); // Ajuste no nome da função de atualização
     const [imagePrincipal, setImagePrincipal] = useState('');
 
     useEffect(() => {
-        const casaDet = CasasInfo.find((casaDetail) => casaDetail.id === parseInt(id));
-        if (casaDet) {
-            setCasas(casaDet);
-            setImagePrincipal(casaDet.image.imagePrincipal);
+        async function getData(){
+            const response = await axios.get(`http://localhost:3000/CasasInfo/${id}`);
+            setCasa(response.data); // Ajuste no nome da função de atualização
+            setImagePrincipal(response.data.image.imagePrincipal); // Assume que 'imagePrincipal' está sempre disponível
         }
-    }, [id]);
+        getData();
+    }, [id]); // Dependência adicionada para reagir a mudanças de ID
 
     function changeImage(imageUrl) {
         setImagePrincipal(imageUrl);
     }
 
-    return casa && casa.image ? (
+    // Renderização condicional baseada na existência de `casa`
+    return casa ? (
         <div className="flex flex-col md:flex-row gap-12 items-center mx-4 md:mx-52 my-10 justify-evenly">
             <div className="flex flex-wrap gap-5 justify-center md:justify-start">
                 <div className="flex flex-col gap-5 items-center md:items-start">

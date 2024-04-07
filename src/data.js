@@ -1,4 +1,4 @@
-export const CasasInfo = [
+/**export const CasasInfo = [
     {
         id: 0,
         image: {
@@ -103,3 +103,4 @@ export const CasasInfo = [
     },
     
 ]
+**/

@@ -1,0 +1,106 @@
+{
+  "CasasInfo": [
+    {
+      "id": "af46",
+      "image": {
+        "imagePrincipal": "https://images.unsplash.com/photo-1523745663588-1bfa973c9b35?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image2": "https://plus.unsplash.com/premium_photo-1678752717095-08cd0bd1d7e7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image3": "https://images.unsplash.com/photo-1616137507072-f7276b168614?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image4": "https://images.unsplash.com/photo-1632210702485-e1841e30752a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "description": "Casa grande com muito espaço, e ambiente verde",
+      "price": 678,
+      "nQuartos": 3,
+      "coberta": "sim",
+      "negociation": "não",
+      "localization": "Redenção",
+      "rua": "Dom Afonso ||",
+      "cep": "62790-000"
+    },
+    {
+      "id": "3ec3",
+      "image": {
+        "imagePrincipal": "https://plus.unsplash.com/premium_photo-1661964475795-f0cb85767a88?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image2": "https://plus.unsplash.com/premium_photo-1678752717095-08cd0bd1d7e7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image3": "https://images.unsplash.com/photo-1616137507072-f7276b168614?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image4": "https://images.unsplash.com/photo-1632210702485-e1841e30752a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "description": "Boa casa com piscina e luzes de luz cobert com marmore",
+      "price": 345,
+      "nQuartos": 4,
+      "coberta": "sim",
+      "negociation": "não",
+      "localization": "Redenção",
+      "rua": "Talita silveira",
+      "cep": "62790-000"
+    },
+    {
+      "id": "bafd",
+      "image": {
+        "imagePrincipal": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image2": "https://plus.unsplash.com/premium_photo-1678752717095-08cd0bd1d7e7?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image3": "https://images.unsplash.com/photo-1616137507072-f7276b168614?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image4": "https://images.unsplash.com/photo-1632210702485-e1841e30752a?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "description": "Casa com muito verde e cober de floresta, abiente limpo e verde",
+      "price": 540,
+      "nQuartos": 2,
+      "coberta": "sim",
+      "negociation": "não",
+      "localization": "Acarape",
+      "rua": "Afonso Martis do conde",
+      "cep": "42790-321"
+    },
+    {
+      "id": "822c",
+      "image": {
+        "imagePrincipal": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image2": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image3": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image4": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "description": "Casa linda branca e espaçosa com 4 corredor de asiles",
+      "price": 467,
+      "nQuartos": 2,
+      "coberta": "sim",
+      "negociation": "sim",
+      "localization": "Acarape",
+      "rua": "Museu dos escravos",
+      "cep": "694.223.000"
+    },
+    {
+      "id": "fe3e",
+      "image": {
+        "imagePrincipal": "https://images.unsplash.com/photo-1582063289852-62e3ba2747f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image2": "https://images.unsplash.com/photo-1582063289852-62e3ba2747f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image3": "https://images.unsplash.com/photo-1582063289852-62e3ba2747f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image4": "https://images.unsplash.com/photo-1582063289852-62e3ba2747f8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "description": "Perto do museu antonio delgado, branca e com muito verde",
+      "price": 400,
+      "nQuartos": 3,
+      "coberta": "não",
+      "negociation": "sim",
+      "localization": "Acarape",
+      "rua": "Edimilson Nunes",
+      "cep": "432.546.00"
+    },
+    {
+      "id": "e53a",
+      "image": {
+        "imagePrincipal": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?q=80&w=1465&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image2": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?q=80&w=1465&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image3": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?q=80&w=1465&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "image4": "https://images.unsplash.com/photo-1513584684374-8bab748fbf90?q=80&w=1465&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      "description": "Casa a neymar luxuosa, com piscina e coberta vidrada",
+      "price": 905,
+      "nQuartos": 4,
+      "coberta": "sim",
+      "negociation": "não",
+      "localization": "Redenção",
+      "rua": "Fulundi dos Santos",
+      "cep": "324.666.000"
+    }
+  ]
+}
