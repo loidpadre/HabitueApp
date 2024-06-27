@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Card } from "./components/card";
 import axios from "axios";
 import { FilterSearch } from "./components/filterSearch";
+import { CiFileOff } from "react-icons/ci";
 
 export const Homes = () => {
   const [casas, setCasas] = useState([]); // Estado para dados filtrados ou atuais
@@ -63,10 +64,12 @@ export const Homes = () => {
   return (
     <div>
       {loading ? (
-        <div className="flex gap-2 justify-center items-center text-center mt-40 mb-60">
-          <div className="w-5 h-5 rounded-full animate-pulse bg-orange-700"></div>
-          <div className="w-5 h-5 rounded-full animate-pulse bg-orange-700"></div>
-          <div className="w-5 h-5 rounded-full animate-pulse bg-orange-700"></div>
+        <div>
+          <div className="flex gap-2 justify-center items-center text-center mt-10 mb-60">
+            <div className="w-5 h-5 rounded-full animate-pulse bg-orange-700"></div>
+            <div className="w-5 h-5 rounded-full animate-pulse bg-orange-700"></div>
+            <div className="w-5 h-5 rounded-full animate-pulse bg-orange-700"></div>
+          </div>
         </div>
       ) : (
         <div>
@@ -76,6 +79,14 @@ export const Homes = () => {
             all={all}
           />
           <div className="flex flex-wrap justify-center gap-4 md:gap-10 px-4 md:px-10 lg:px-56">
+            {casas.length === 0 && (
+              <h1 className="text-center mt-40">
+                <div className="flex flex-col gap-2 justify-center items-center">
+                  <CiFileOff className="text-center" size={200} />
+                  Erro ao carregar os dados, porfavor volte mais tarde.
+                </div>
+              </h1>
+            )}
             {casas.map((casa) => (
               <Card key={casa._id} casa={casa} />
             ))}
